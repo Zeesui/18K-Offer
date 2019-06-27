@@ -1,0 +1,40 @@
+<!--
+<h3> 投交简历 <%= @job.title %> </h3>
+
+<hr>
+<%= simple_form_for [@job, @resume] do |f| %>
+<%= f.input :content %>
+<%= f.input :attachment %>
+<%= f.submit "送出" %>
+<% end %>
+  --!>
+
+  <div class="resume-new">
+
+
+    <div class="col-md-6 col-md-offset-3 resume-show">
+      <h3><sapn class="resume-title"></sapn> 投递简历</h3>
+         <hr>
+      <span class="company-name"> <%= @job.title %> </span>
+       /<span> <%= @job.company %> </span>
+       <p>
+         <span class="wage"> <%= @job.wage_lower_bound %> ~ <%= @job.wage_upper_bound %> </span>
+         /
+          <img src="images/favicon-4.ico"><%= @job.city %>
+       </p>
+        <p>
+          <span> <%= @job.created_at %> 发布于18K Offer </span>
+        </p>
+    </div>
+    <div class="col-md-6 col-md-offset-3 resume-action">
+           <hr>
+           <%= simple_form_for [@job, @resume] do |f| %>
+           <%= f.input :content, :label => false, placeholder: '请输入简历描述', input_html: { class: 'resume-content' }  %>
+           <%= f.input :attachment, :label => "上传简历" %>
+           <div class="resume-bot">
+           <%= f.submit "送出", class: "resume-bot-button" %>
+           <% end %>
+    </div>
+    </div>
+
+  </div>

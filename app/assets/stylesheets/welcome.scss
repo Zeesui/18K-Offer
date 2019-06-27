@@ -1,3 +1,152 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.short-line {
+   display: inline-block;
+   background: #35CCC6;
+   border-style: none;
+   border-radius: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   z-index: 53;
+   width: 200px;
+   height: 1.5px;
+   position: relative;
+}
+
+.short-line-2 {
+   display: inline-block;
+   background: #35CCC6;
+   border-style: none;
+   border-radius: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   z-index: 53;
+   width: 100px;
+   height: 1.5px;
+   position: relative;
+}
+
+.short-line-3 {
+   display: inline-block;
+   background: #F5F5F5;
+   border-style: none;
+   border-radius: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   z-index: 53;
+   width: 1000px;
+   height: 0.8px;
+   position: relative;
+}
+   /*  首页头图  */
+.jumbotron {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 180px;
+}
+
+.container-fluid .jumbotron{
+  padding-bottom: 180px;
+  margin: 0 -15px 20px;
+  border-radius: 0;
+}
+
+.title {
+  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.slogan {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  top: 12px;
+}
+
+.lead {
+  margin-bottom: 60px;
+  text-align: center;
+  color: white;
+}
+     /*   马上应征    */
+.btn-danger {
+  color: #FAFAFA;
+  background-color: rgba(0,0,0,0);
+  border-color: #FAFAFA;
+}
+
+.btn-danger:hover {
+  background-color: #263238;
+  border-color: #263238;
+}
+.lead a {
+  color: #F5F5F5;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.lead-2 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.lead-2 a {
+  color: #F5F5F5;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+    /*   end  */
+
+.mid-card {
+  border: 0 none;
+  box-shadow: none;
+  margin-top: 60px
+}
+     /*   首页头图end  */
+
+
+.mid {
+  background-color: rgb(236,239,241);
+  border-color: rgb(236,239,241);
+  margin: -20px -15px 10px -15px;
+  padding-bottom: 20px;
+}
+
+.mid-title {
+  font-size: 18px;
+  color: rgba(2, 2, 2, 0.7);
+}
+
+.mid-slogan {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgba(2, 2, 2, 0.7);
+}
+
+.container-2 {
+  background-color: rgb(236,239,241);
+  border-color: rgb(236,239,241);
+  margin: -20px -15px 10px -15px;
+  padding-bottom: 20px;
+}
+
+.container-5 {
+  background-image: url(https://i.imgur.com/SXKzjrS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+  margin: 0 -15px 0 -15px;
+}

@@ -1,3 +1,58 @@
 // Place all the styles related to the jobs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.job {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.job-box {
+  border: 1.5px solid #ddd;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-top: 12.5px;
+  padding: 12px 10px 10px 5px;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-size: 15px;
+  color: #555;
+}
+
+.box-mid {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #FF9800;
+}
+
+.box-top {
+  span {
+    font-size: 10px;
+  }
+}
+
+.company-city {
+  font-size: 12px;
+  color: #555;
+}
+      //#   jobs.index end    #//
+
+    //#   jobs.show start  #//
+
+.job-show {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  text-align: left;
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+  font-size: 15px;
+  color: #555;
+
+}
+
+.company-name {
+  font-size: 23px;
+}
+
+.wage {
+  color: #FF9800;
+}
+   //#   jobs.show end    #//

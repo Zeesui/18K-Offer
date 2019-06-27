@@ -1,0 +1,41 @@
+<!--
+<h1> 撰写职缺 </h1>
+<%= simple_form_for [:admin, @job] do |f| %>
+<%= f.input :title, :label => "职位名称" %>
+<%= f.input :description, :label => "职位描述" %>
+<%= f.input :wage_lower_bound, :label => "薪资下限" %>
+<%= f.input :wage_upper_bound, :label => "薪资上限" %>
+<%= f.input :company, :label => "公司名称" %>
+<%= f.input :city, :label => "所在城市" %>
+<%= f.input :contact_email %>
+<%= f.submit "Submit" %>
+<% end %>
+ --!>
+
+ <div class="add-job">
+
+   <div class="col-md-10 add-job-box">
+       <h2>撰写职缺</h2>
+
+         <%= simple_form_for [:admin, @job] do |f| %>
+        <div class="col-md-8 add-job-group">
+          <hr>
+          <%= f.input :title, :label => false, placeholder: '请输入职位名称' %>
+          <%= f.input :description, :label => false, placeholder: '请输入职位描述' %>
+          <%= f.input :company, :label => false, placeholder: '请输入公司名称' %>
+          <hr>
+        <span class="wage-group"> <%= f.input :wage_lower_bound, :label => false, placeholder: '薪资下限' %></span>
+        <span class="wage-group"> <%= f.input :wage_upper_bound, :label => false, placeholder: '薪资上限' %></span>
+          <%= f.input :city, :label => false, placeholder: '工作地点' %>
+          <%= f.input :contact_email, label: '联系方式:', placeholder: 'user@gmail.com' %>
+          <hr>
+        </div>
+
+        <div class="col-md-8 add-job-button">
+          <%= f.submit "提交", class: "job-button" %>
+
+        </div>
+        <% end %>
+   </div>
+
+ </div>

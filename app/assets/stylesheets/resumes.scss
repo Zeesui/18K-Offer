@@ -1,3 +1,18 @@
 // Place all the styles related to the resumes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.resume-new {
+  margin-top: 15px;
+  margin-bottom: 150px;
+  h3 {
+    font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.resume-bot-button:hover {
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  color: #37474F;
+}

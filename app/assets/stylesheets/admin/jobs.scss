@@ -1,3 +1,21 @@
 // Place all the styles related to the admin::jobs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.add-job-box {
+  margin-top: 30px;
+  margin-bottom: 150px;
+
+  font-family: "Hiragino Sans GB","Microsoft Yahei",SimSun,Arial,"Helvetica Neue",Helvetica;
+   h2 {
+     font-size: 27px;
+     margin-left: 20px;
+   }
+}
+
+.job-button:hover {
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+  color: #37474F;
+}
