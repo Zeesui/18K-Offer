@@ -41,10 +41,10 @@ gem 'devise'
 gem 'simple_form'
 gem 'carrierwave'
 
-group :development, :test do  # <<<< :development, not devlopment
+group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'sqlite3', '~> 1.3.6'   #gem to use in development environment
+  gem 'sqlite3', '~> 1.3.6'
 
 end
 
@@ -69,5 +69,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   group :production do
-    gem 'pg'      #gem to use in production environment
+    gem 'pg'      
   end
