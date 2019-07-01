@@ -1,0 +1,15 @@
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/sujize/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/sujize/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0 -r ./siteconf20190629-35790-1efasy7.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190629-35790-1pildpv/bootsnap

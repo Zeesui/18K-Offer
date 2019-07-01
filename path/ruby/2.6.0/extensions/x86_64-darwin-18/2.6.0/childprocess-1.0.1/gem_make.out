@@ -1,0 +1,5 @@
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/childprocess-1.0.1/ext
+/Users/sujize/.rvm/rubies/ruby-2.6.1/bin/ruby mkrf_conf.rb
+
+current directory: /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/childprocess-1.0.1/ext
+/Users/sujize/.rvm/rubies/ruby-2.6.1/bin/ruby -rrubygems /Users/sujize/job.2/job-listing/path/ruby/2.6.0/gems/rake-12.3.2/exe/rake RUBYARCHDIR\=/Users/sujize/job.2/job-listing/path/ruby/2.6.0/extensions/x86_64-darwin-18/2.6.0/childprocess-1.0.1 RUBYLIBDIR\=/Users/sujize/job.2/job-listing/path/ruby/2.6.0/extensions/x86_64-darwin-18/2.6.0/childprocess-1.0.1
